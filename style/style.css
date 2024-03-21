@@ -33,24 +33,20 @@ body{
     height: 2.4em;
 }
 .product-container {
-    border-style: dotted;
-    background-color: rgb(128, 57, 57);
+
     position: fixed;
-    left: 200px;
-    top: 100px;
+    left: 50px;
+    top: 40px;
     right: 50px;
     bottom: 0px;
-    border-right: 1px solid #ddd;
+   
     color: #080000;
     overflow: auto;
+
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 0;
+    margin-right: 0;
 }
 
 
-.container {
-    position: absolute;
-    border-style: dashed;
-    right: 0;
-    left: 0;
-    width: 100%; 
-    
-}

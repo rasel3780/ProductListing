@@ -67,6 +67,18 @@ function addProducts() {
     addProduct(currentRow, './style/img/dell-vostro-5620.png', 'Dell Inspiron 15 3520 Core i3 12th Gen 15.6" FHD Laptop', '34,500৳');
     addProduct(currentRow, './style/img/dell-vostro-5620.png', 'Dell Inspiron 15 3520 Core i3 12th Gen 15.6" FHD Laptop', '34,500৳');
     addProduct(currentRow, './style/img/dell-vostro-5620.png', 'Dell Inspiron 15 3520 Core i3 12th Gen 15.6" FHD Laptop', '34,500৳');
+
+    currentRow = createRow(container);
+    addProduct(currentRow, './style/img/dell-vostro-5620.png', 'Dell Inspiron 15 3520 Core i3 12th Gen 15.6" FHD Laptop', '34,500৳');
+    addProduct(currentRow, './style/img/dell-vostro-5620.png', 'Dell Inspiron 15 3520 Core i3 12th Gen 15.6" FHD Laptop', '34,500৳');
+    addProduct(currentRow, './style/img/dell-vostro-5620.png', 'Dell Inspiron 15 3520 Core i3 12th Gen 15.6" FHD Laptop', '34,500৳');
+    addProduct(currentRow, './style/img/dell-vostro-5620.png', 'Dell Inspiron 15 3520 Core i3 12th Gen 15.6" FHD Laptop', '34,500৳');
+    
+    currentRow = createRow(container);
+    addProduct(currentRow, './style/img/dell-vostro-5620.png', 'Dell Inspiron 15 3520 Core i3 12th Gen 15.6" FHD Laptop', '34,500৳');
+    addProduct(currentRow, './style/img/dell-vostro-5620.png', 'Dell Inspiron 15 3520 Core i3 12th Gen 15.6" FHD Laptop', '34,500৳');
+    addProduct(currentRow, './style/img/dell-vostro-5620.png', 'Dell Inspiron 15 3520 Core i3 12th Gen 15.6" FHD Laptop', '34,500৳');
+    addProduct(currentRow, './style/img/dell-vostro-5620.png', 'Dell Inspiron 15 3520 Core i3 12th Gen 15.6" FHD Laptop', '34,500৳');
 }
 
 addProducts();

@@ -7,13 +7,51 @@
     <title>Product List</title>
     <link rel="stylesheet" href="./style/bootstrap.min.css">
     <link rel="stylesheet" href="./style/style.css">
+    <script src="./scripts/jquery-3.7.1.min.js"></script>
+    <script src="./scripts/bootstrap.min.js"></script>
 </head>
 
 <body>
-    <div class="product-container" >
-        <div class="container" id="productContainer">
 
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                  
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownCategories" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Select Categories
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownCategories">
+                            
+                            <a class="dropdown-item" href="#">Category 1</a>
+                            <a class="dropdown-item" href="#">Category 2</a>
+                            <a class="dropdown-item" href="#">Category 3</a>
+                        </div>
+                    </li>
+                </ul>
+
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownSort" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Sort By
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownSort">
+                            <a class="dropdown-item" href="#">Price: High to Low</a>
+                            <a class="dropdown-item" href="#">Price: Low to High</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
         </div>
+    </nav>
+
+
+    <div class="product-container" id="productContainer" >
+        
     </div>
 
 
