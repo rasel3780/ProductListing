@@ -1,0 +1,56 @@
+body{
+    background-color: #f2f3f8;
+}
+.product-price {
+    text-align: center;
+    margin: 0px 0px 10px 0px;
+
+    font-size: 17px;
+    font-weight: 600;
+    color: rgb(239, 74, 35);
+}
+
+.card-body h5 {
+    color: black;
+    font-weight: 600;
+    font-size: 16px;
+    margin-bottom: px;
+}
+.card-body{
+    padding: 10px;
+}
+
+.card-img-top {
+    height: 150px; 
+ 
+}
+.card-title {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    line-height: 1.2;
+    height: 2.4em;
+}
+.product-container {
+    border-style: dotted;
+    background-color: rgb(128, 57, 57);
+    position: fixed;
+    left: 200px;
+    top: 100px;
+    right: 50px;
+    bottom: 0px;
+    border-right: 1px solid #ddd;
+    color: #080000;
+    overflow: auto;
+}
+
+
+.container {
+    position: absolute;
+    border-style: dashed;
+    right: 0;
+    left: 0;
+    width: 100%; 
+    
+}
