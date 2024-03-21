@@ -20,11 +20,16 @@
         .card-body h5 {
             color: black;
             font-weight: 600;
-            font-size: 18px;
+            font-size: 16px;
             margin-bottom: px;
         }
         .card-body{
             padding: 10px;
+        }
+
+        .card-img-top {
+            height: 150px; 
+            width: auto; 
         }
 
     </style>
@@ -63,11 +68,17 @@
         var viewDetailsBtn = document.createElement('a');
         viewDetailsBtn.classList.add('btn', 'btn-success', 'btn-block');
         viewDetailsBtn.href = '#';
-        viewDetailsBtn.textContent = 'View Details'
+        viewDetailsBtn.textContent = 'View Details';
+
+        var addToCartBtn = document.createElement('a');
+        addToCartBtn.classList.add('btn', 'btn-primary', 'btn-block');
+        addToCartBtn.href='#';
+        addToCartBtn.textContent = 'Add to Cart';
 
         cardBody.appendChild(cardTitle);   
         cardBody.appendChild(productPrice); 
         cardBody.appendChild(viewDetailsBtn);
+        cardBody.appendChild(addToCartBtn);
         
         card.appendChild(img);
         card.appendChild(document.createElement('hr'));
