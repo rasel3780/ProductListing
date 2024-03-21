@@ -1,9 +1,16 @@
-// scripts.js
+
+function createRow(container) {
+    var row = document.createElement('div');
+    row.classList.add('row', 'mt-4');
+    container.appendChild(row);
+    return row;
+}
+
 
 function addProduct(container, imgSrc, title, price) {
     var column = document.createElement('div');
-    column.classList.add('col-lg-3', 'col-md-3', 'col-sm-6', 'col-12', 'mb-4');
-
+    column.classList.add('col-lg-2', 'col-md-2', 'col-sm-4', 'col-6', 'mb-4');
+    
     var card = document.createElement('div');
     card.classList.add('card');
 
@@ -46,12 +53,6 @@ function addProduct(container, imgSrc, title, price) {
     container.appendChild(column);
 }
 
-function createRow(container) {
-    var row = document.createElement('div');
-    row.classList.add('row', 'mt-4');
-    container.appendChild(row);
-    return row;
-}
 
 var container = document.getElementById('productContainer');
 var currentRow = createRow(container);
@@ -61,24 +62,32 @@ function addProducts() {
     addProduct(currentRow, './style/img/msi-raider-ge68-hx-13vg-gaming-laptop.jpg', 'MSI RAIDER GE68 HX 13VG 16 INCH UHD+ 120HZ DISPLAY CORE I9 13TH GEN', '34,500৳');
     addProduct(currentRow, './style/img/dell-vostro-5620.png', 'Dell Inspiron 15 3520 Core i3 12th Gen 15.6" FHD Laptop', '34,500৳');
     addProduct(currentRow, './style/img/msi-raider-ge68-hx-13vg-gaming-laptop.jpg', 'Dell Inspiron 15 3520 Core i3 12th Gen 15.6" FHD Laptop', '34,500৳');
+    addProduct(currentRow, './style/img/msi-raider-ge68-hx-13vg-gaming-laptop.jpg', 'Dell Inspiron 15 3520 Core i3 12th Gen 15.6" FHD Laptop', '34,500৳');
+    addProduct(currentRow, './style/img/msi-raider-ge68-hx-13vg-gaming-laptop.jpg', 'Dell Inspiron 15 3520 Core i3 12th Gen 15.6" FHD Laptop', '34,500৳');
 
     currentRow = createRow(container);
     addProduct(currentRow, './style/img/dell-vostro-5620.png', 'Dell Inspiron 15 3520 Core i3 12th Gen 15.6" FHD Laptop', '34,500৳');
     addProduct(currentRow, './style/img/dell-vostro-5620.png', 'Dell Inspiron 15 3520 Core i3 12th Gen 15.6" FHD Laptop', '34,500৳');
     addProduct(currentRow, './style/img/dell-vostro-5620.png', 'Dell Inspiron 15 3520 Core i3 12th Gen 15.6" FHD Laptop', '34,500৳');
     addProduct(currentRow, './style/img/dell-vostro-5620.png', 'Dell Inspiron 15 3520 Core i3 12th Gen 15.6" FHD Laptop', '34,500৳');
+    addProduct(currentRow, './style/img/msi-raider-ge68-hx-13vg-gaming-laptop.jpg', 'Dell Inspiron 15 3520 Core i3 12th Gen 15.6" FHD Laptop', '34,500৳');
+    addProduct(currentRow, './style/img/msi-raider-ge68-hx-13vg-gaming-laptop.jpg', 'Dell Inspiron 15 3520 Core i3 12th Gen 15.6" FHD Laptop', '34,500৳');
 
     currentRow = createRow(container);
     addProduct(currentRow, './style/img/dell-vostro-5620.png', 'Dell Inspiron 15 3520 Core i3 12th Gen 15.6" FHD Laptop', '34,500৳');
     addProduct(currentRow, './style/img/dell-vostro-5620.png', 'Dell Inspiron 15 3520 Core i3 12th Gen 15.6" FHD Laptop', '34,500৳');
     addProduct(currentRow, './style/img/dell-vostro-5620.png', 'Dell Inspiron 15 3520 Core i3 12th Gen 15.6" FHD Laptop', '34,500৳');
     addProduct(currentRow, './style/img/dell-vostro-5620.png', 'Dell Inspiron 15 3520 Core i3 12th Gen 15.6" FHD Laptop', '34,500৳');
-    
+    addProduct(currentRow, './style/img/msi-raider-ge68-hx-13vg-gaming-laptop.jpg', 'Dell Inspiron 15 3520 Core i3 12th Gen 15.6" FHD Laptop', '34,500৳');
+    addProduct(currentRow, './style/img/msi-raider-ge68-hx-13vg-gaming-laptop.jpg', 'Dell Inspiron 15 3520 Core i3 12th Gen 15.6" FHD Laptop', '34,500৳');
+
     currentRow = createRow(container);
     addProduct(currentRow, './style/img/dell-vostro-5620.png', 'Dell Inspiron 15 3520 Core i3 12th Gen 15.6" FHD Laptop', '34,500৳');
     addProduct(currentRow, './style/img/dell-vostro-5620.png', 'Dell Inspiron 15 3520 Core i3 12th Gen 15.6" FHD Laptop', '34,500৳');
     addProduct(currentRow, './style/img/dell-vostro-5620.png', 'Dell Inspiron 15 3520 Core i3 12th Gen 15.6" FHD Laptop', '34,500৳');
     addProduct(currentRow, './style/img/dell-vostro-5620.png', 'Dell Inspiron 15 3520 Core i3 12th Gen 15.6" FHD Laptop', '34,500৳');
+    addProduct(currentRow, './style/img/msi-raider-ge68-hx-13vg-gaming-laptop.jpg', 'Dell Inspiron 15 3520 Core i3 12th Gen 15.6" FHD Laptop', '34,500৳');
+    addProduct(currentRow, './style/img/msi-raider-ge68-hx-13vg-gaming-laptop.jpg', 'Dell Inspiron 15 3520 Core i3 12th Gen 15.6" FHD Laptop', '34,500৳');
 }
 
 addProducts();

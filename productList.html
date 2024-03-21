@@ -9,53 +9,69 @@
     <link rel="stylesheet" href="./style/style.css">
     <script src="./scripts/jquery-3.7.1.min.js"></script>
     <script src="./scripts/bootstrap.min.js"></script>
+
+<style>
+
+    
+.productListBar {
+    background-color: #180147;
+    padding: 5px; 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+}
+
+    .productListBar .bar-title {
+        color: #f0f0f0;
+        font-size: 18px; 
+    }
+
+
+.search-container {
+    display: flex; 
+    justify-content: center; 
+}
+
+
+
+#search-input {
+    margin-right: 5px;
+    border-style:none;
+}
+
+#search-btn, #clear-btn {
+    padding: 5px 10px 5px 10px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    border-style: none;
+    
+    
+    margin-right: 5px;
+}
+    #clear-btn{
+        background-color:red;
+    }
+
+    #search-btn:hover {
+        background-color: #0056b3;
+    }
+#clear-btn:hover{
+    background-color:#a20606;
+}
+
+
+</style>
 </head>
 
 <body>
+    
+        <!-- Product Container -->
+        <div class="product-container" id="productContainer">
 
-
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container">
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto">
-                  
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownCategories" role="button"
-                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Select Categories
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdownCategories">
-                            
-                            <a class="dropdown-item" href="#">Category 1</a>
-                            <a class="dropdown-item" href="#">Category 2</a>
-                            <a class="dropdown-item" href="#">Category 3</a>
-                        </div>
-                    </li>
-                </ul>
-
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownSort" role="button"
-                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Sort By
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdownSort">
-                            <a class="dropdown-item" href="#">Price: High to Low</a>
-                            <a class="dropdown-item" href="#">Price: Low to High</a>
-                        </div>
-                    </li>
-                </ul>
-            </div>
         </div>
-    </nav>
-
-
-    <div class="product-container" id="productContainer" >
-        
-    </div>
-
-
-<script src="./scripts/scripts.js"></script>
-
+ 
+    <script src="./scripts/scripts.js"></script>
 </body>
+
 </html>
